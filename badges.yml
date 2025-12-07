@@ -1,34 +1,22 @@
-# Badges Configuration
-
-# IMPORTANT: This file defines the badges that will be displayed in the README.
-# All badge URLs MUST be dynamically generated and point to the correct repository.
-# The 'username' is 'chirag127' and the repository name is 'WebScrape-Email-Social-Extractor-Ruby-CLI'.
-
-# Shield.io Badge Configuration
-# Base URL: https://img.shields.io/
-# Style: flat-square
-
-# NOTE: The specific badges and their statuses will be dynamically generated in the README.
-# This file primarily serves as a configuration template and reference.
-
-# Example structure for reference (Actual implementation will be in README.md):
-# -
-#   title: "Build Status"
-#   image: "https://img.shields.io/github/actions/workflow/user/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI/ci.yml?branch=main&style=flat-square"
-#   url: "https://github.com/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI/actions/workflows/ci.yml"
-# -
-#   title: "Code Coverage"
-#   image: "https://img.shields.io/codecov/c/github/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI?style=flat-square"
-#   url: "https://codecov.io/gh/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI"
-# -
-#   title: "Tech Stack (Ruby)"
-#   image: "https://img.shields.io/badge/Tech-Stack-Ruby-blue?style=flat-square"
-#   url: "https://www.ruby-lang.org/"
-# -
-#   title: "License (CC BY-NC 4.0)"
-#   image: "https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square"
-#   url: "https://creativecommons.org/licenses/by-nc/4.0/"
-# -
-#   title: "GitHub Stars"
-#   image: "https://img.shields.io/github/stars/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI?style=flat-square"
-#   url: "https://github.com/chirag127/WebScrape-Email-Social-Extractor-Ruby-CLI/"
+badges:
+  - name: Build Status
+    url: "https://img.shields.io/github/workflow/status/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI/ci.yml?style=flat-square"
+    markdown: "[![Build Status](https://img.shields.io/github/workflow/status/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI/ci.yml?style=flat-square&label=Build)](https://github.com/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI/actions/workflows/ci.yml)"
+  - name: Code Coverage
+    url: "https://img.shields.io/codecov/c/github/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI?style=flat-square"
+    markdown: "[![Code Coverage](https://img.shields.io/codecov/c/github/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI?style=flat-square&token=XYZ_REPLACE_TOKEN_IF_NEEDED)](https://codecov.io/gh/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI)"
+  - name: Language
+    url: "https://img.shields.io/badge/Language-Ruby-c19f37?style=flat-square"
+    markdown: "[![Language](https://img.shields.io/badge/Language-Ruby-c19f37?style=flat-square)]()"
+  - name: Frameworks
+    url: "https://img.shields.io/badge/Framework-CLI-306998?style=flat-square"
+    markdown: "[![Framework](https://img.shields.io/badge/Framework-CLI-306998?style=flat-square)]()"
+  - name: License
+    url: "https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=flat-square"
+    markdown: "[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue?style=flat-square)](LICENSE)"
+  - name: GitHub Stars
+    url: "https://img.shields.io/github/stars/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI?style=flat-square&color=gold"
+    markdown: "[![GitHub Stars](https://img.shields.io/github/stars/chirag127/LeadScout-Email-Social-Media-Data-Extractor-Ruby-CLI?style=flat-square&color=gold)]()"
+  - name: SerpApi Integration
+    url: "https://img.shields.io/badge/API%20Service-SerpApi-007ACC?style=flat-square"
+    markdown: "[![API Service](https://img.shields.io/badge/API%20Service-SerpApi-007ACC?style=flat-square)]()"
